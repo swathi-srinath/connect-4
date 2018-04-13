@@ -1,0 +1,16 @@
+********** Connect 4 Board Game *********
+This is an interactive board game played between two players.
+In this game, the player is presented with a 6 X 7 board and each
+player takes his turn to mark one of the cells in the board with
+histoken. The tokens are filled bottom up and the player who
+manages to get 4 consective tokens  horizontally or vertically
+or diagonally wins the game.
+
+In this game, by default you have 1 dumb computer player and 1 human
+player. However, users have the ability to select both players to be
+humans or both players to be smart computer players or any combination
+of players.
+
+To begin the game please select the option number from the player list below:
+1. Computer (Default)
+2. Human
