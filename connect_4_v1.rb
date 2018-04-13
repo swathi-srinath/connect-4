@@ -5,7 +5,7 @@ require_relative 'board'
 # Method which will start the game
 def start_game
   # Read the file that contains game instructions and display on the console
-  File.open("instructions.txt").each do |line|
+  File.open(File.join(File.dirname(__FILE__),"instructions.txt")).each do |line|
     puts line
   end
   # Select player 1 and 2 as human or computer. If human provide a name for identification
